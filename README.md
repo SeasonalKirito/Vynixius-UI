@@ -35,7 +35,7 @@ local Button = Section:AddButton("Button", function()
 end)
 ```
 This will create a button that load a piece of code when interated with.
-# Create Tab
+# Create Toggle
 ```lua
 local Toggle = Section:AddToggle("Toggle", {flag = "Toggle_Flag", default = false}, function(bool)
 	print("Toggle set to:", bool)
